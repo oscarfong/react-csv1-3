@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-export default ({ name }) => <h1>Hello {name}! </h1>;
+export default ({ name }) => <h1>Hello (@CSV1.js) {name}! </h1>;
 
 class CSV1 extends Component {
   constructor() {
@@ -31,4 +31,4 @@ render() {
   }
 }
 
-render(<CSV1 />, document.getElementById('root1'));
+//render(<CSV1 />, document.getElementById('root1'));
